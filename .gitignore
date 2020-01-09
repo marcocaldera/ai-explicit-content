@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+settings/chromedriver
+constant.py
+dataset/
