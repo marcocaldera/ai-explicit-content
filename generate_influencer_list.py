@@ -7,19 +7,13 @@ import urllib.request
 from collections import Counter
 import numpy as np
 import pandas as pd
+from common.utilities import init_browser
 
 
-class ChromeBrowser:
+class ChromeBrowserInfluencerList:
 
     def __init__(self):
-        self.chrome_browser = self.init_browser()
-
-    def init_browser(self):
-        chrome_options = webdriver.ChromeOptions()
-        chrome_options.add_argument('headless')
-        return webdriver.Chrome(executable_path='./settings/chromedriver',
-                                chrome_options=chrome_options
-                                )
+        self.chrome_browser = init_browser()
 
     def hypeauditor_login(self):
         self.chrome_browser.get('https://hypeauditor.com/login/')
@@ -49,7 +43,7 @@ class ChromeBrowser:
 start = pd.Timestamp.now()
 # code
 
-chrome_browser = ChromeBrowser()
+chrome_browser = ChromeBrowserInfluencerList()
 chrome_browser.hypeauditor_login()
 time.sleep(1)
 influencers_list = chrome_browser.get_1000_influencers_list()
