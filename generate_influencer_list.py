@@ -25,6 +25,7 @@ class ChromeBrowserInfluencerList:
     def get_1000_influencers_list(self):
         ranking_list_url = "https://hypeauditor.com/en/top-instagram/?p="
         influencers_list = []
+        topic_list = []
         for page in range(0, 20):
             # print(page)
             self.chrome_browser.get(ranking_list_url + str(page + 1))
@@ -34,10 +35,14 @@ class ChromeBrowserInfluencerList:
             body = table_containing_influencers.find('tbody')
             for row in body.findAll('tr'):
                 user = row.find("a", class_="kyb-ellipsis")
+                topic = row.find("span", class_="bloggers-top-topic")
                 username = user.decode_contents()
                 username = username[1:]
                 influencers_list.append(username)
-        return influencers_list
+                if topic is not None:
+                    topic_list.append(topic.decode_contents())
+                else: topic_list.append("")
+        return influencers_list, topic_list
 
 
 start = pd.Timestamp.now()
@@ -46,9 +51,10 @@ start = pd.Timestamp.now()
 chrome_browser = ChromeBrowserInfluencerList()
 chrome_browser.hypeauditor_login()
 time.sleep(1)
-influencers_list = chrome_browser.get_1000_influencers_list()
+influencers_list, topic_list = chrome_browser.get_1000_influencers_list()
 frame = pd.DataFrame({
     'name': influencers_list,
+    'topic': topic_list
 })
 frame.to_csv('dataset/influencer.csv')
 
