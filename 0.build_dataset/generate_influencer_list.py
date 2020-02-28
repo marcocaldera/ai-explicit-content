@@ -56,7 +56,7 @@ frame = pd.DataFrame({
     'name': influencers_list,
     'topic': topic_list
 })
-frame.to_csv('dataset/influencer.csv')
+frame.to_csv('dataset/influencer_list.csv')
 
 # code
 print(pd.Timestamp.now() - start)

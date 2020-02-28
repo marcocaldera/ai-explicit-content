@@ -52,7 +52,7 @@ start = pd.Timestamp.now()
 
 chrome_browser = ChromeBrowserInfluencerData()
 chrome_browser.instagram_login()
-username_list = pd.read_csv('./dataset/influencer.csv')
+username_list = pd.read_csv('./dataset/influencer_list.csv')
 
 for index, user in username_list.iterrows():
     # break
@@ -62,7 +62,7 @@ for index, user in username_list.iterrows():
             time.sleep(10)
         chrome_browser.outline_user(user[1])
     # chrome_browser.outline_user(user[1])
-    # time.sleep(2)
+    #  time.sleep(2)
 # code
 print(pd.Timestamp.now() - start)
 # info TEMPO DI ESECUZIONE: 0 days 00:17:08.794233

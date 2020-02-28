@@ -131,3 +131,4 @@ dmypy.json
 settings/chromedriver
 constant.py
 dataset/
+dataset-processed/
