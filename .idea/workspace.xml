@@ -2,12 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31fe89b8-4c1b-4041-8dc7-547fde3e4554" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.new_phase/common/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.new_phase/common/utilities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.new_phase/construct_influencer_json_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.pre_processing/Neural Network Model (inflated).ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.pre_processing/Neural Network Model (limited-data).ipynb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.pre_processing/Pre-processing 01.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/1.pre_processing/01.pre-processing.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1.pre_processing/model.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0.build_dataset/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.pre_processing/01.pre-processing.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.pre_processing/02.pre-processing-brand-paid.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.pre_processing/Modelli caption/03.caption model (sparse matrix).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.pre_processing/Modelli caption/04.caption-model (word embedding).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.pre_processing/Modelli caption/word-embedding-max-pool.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.pre_processing/Modelli caption/word-embedding.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.pre_processing/Modelli/NNM (inflated + feature selection).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.pre_processing/Modelli/NNM (inflated).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.pre_processing/Modelli/NNM (limited-data).ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.pre_processing/Modelli/nn_inflated_data-09032020.h5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.pre_processing/Modelli/testing.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.image_classification/1.train-test-split.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/2.image_classification/1.train-test-split.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2.image_classification/COVID19.ipynb" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,14 +29,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dataset-processed/pre-processed-01.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/0.build_dataset/generate_paidpartnership_dataset.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="85" selection-end-column="84" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataset/influencer_dataset.csv">
           <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+            <state relative-caret-position="285">
+              <caret line="19" column="123" selection-start-line="19" selection-start-column="123" selection-end-line="19" selection-end-column="123" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataset/influencer-json-2020/1demetozdemir.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataset/influencer-json-2020/cristiano.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1440">
+              <caret line="342" column="52" selection-start-line="342" selection-start-column="42" selection-end-line="342" selection-end-column="52" />
+              <folding>
+                <element signature="n#!!block;n#viewer#0;n#!!block;n#config#0;n#!!top" />
+                <element signature="e#2666#3068#0" />
+                <element signature="e#3990#8748#0" />
+                <element signature="e#8812#13660#0" />
+                <element signature="e#14092#18820#0" />
+                <element signature="e#28223#32966#0" />
+                <element signature="e#33030#37571#0" />
+                <element signature="e#37635#42349#0" />
+                <element signature="e#42413#46839#0" />
+                <element signature="e#46903#51724#0" />
+                <element signature="e#51788#56640#0" />
+                <element signature="e#56704#61532#0" />
+                <element signature="e#61596#66279#0" />
+                <element signature="e#66343#70990#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/0.build_dataset/generate_target_value.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#0#79#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/0.build_dataset/generate_influencer_list.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+              <folding>
+                <element signature="e#18#47#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,7 +147,12 @@
       <find>gifted</find>
       <find>#ad</find>
       <find>zara</find>
+      <find>;</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>,</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -118,14 +202,21 @@
         <option value="$PROJECT_DIR$/dataset-processed/pre-processed-01.csv" />
         <option value="$PROJECT_DIR$/dataset/influencer-json-2020/chaelincl.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/3.new_phase/non_influencer_list.csv" />
+        <option value="$PROJECT_DIR$/3.new_phase/construct_influencer_json_data.py" />
+        <option value="$PROJECT_DIR$/3.new_phase/common/utilities.py" />
+        <option value="$PROJECT_DIR$/3.new_phase/dataset/non-influencer-json-2020/__fabrizioferrari.json" />
+        <option value="$PROJECT_DIR$/3.new_phase/generate_paidpartnership_dataset.py" />
+        <option value="$PROJECT_DIR$/3.new_phase/dataset/non-influencer_dataset.csv" />
+        <option value="$PROJECT_DIR$/0.build_dataset/generate_influencer_list.py" />
+        <option value="$PROJECT_DIR$/dataset/influencer-json-2020/1demetozdemir.json" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="66" />
-    <option name="y" value="115" />
+    <option name="y" value="44" />
     <option name="width" value="1920" />
-    <option name="height" value="777" />
+    <option name="height" value="991" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -135,6 +226,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,39 +237,43 @@
             <path>
               <item name="thesis-ai" type="b2602c69:ProjectViewProjectNode" />
               <item name="thesis-ai" type="462c0819:PsiDirectoryNode" />
-              <item name="1.pre_processing" type="462c0819:PsiDirectoryNode" />
+              <item name="0.build_dataset" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thesis-ai" type="b2602c69:ProjectViewProjectNode" />
               <item name="thesis-ai" type="462c0819:PsiDirectoryNode" />
-              <item name="dataset-processed" type="462c0819:PsiDirectoryNode" />
+              <item name="0.build_dataset" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/1.pre_processing" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/3.new_phase/dataset" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="PyScientificConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/1.pre_processing" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/settings" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/3.new_phase" />
+      <recent name="$PROJECT_DIR$/3.new_phase/dataset" />
       <recent name="$PROJECT_DIR$/2.models" />
       <recent name="$PROJECT_DIR$/1.pre_processing" />
       <recent name="$PROJECT_DIR$/0.build_dataset" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/3.new_phase/dataset" />
+      <recent name="$PROJECT_DIR$/3.new_phase" />
+      <recent name="$PROJECT_DIR$/1.pre_processing" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/settings" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -192,8 +288,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.generate_paidpartnership_dataset (1)">
-    <configuration name="construct_influencer_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.generate_paidpartnership_dataset">
+    <configuration name="construct_influencer_json_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="thesis-ai" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,14 +297,14 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3.new_phase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/0.build_dataset/construct_influencer_json_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.new_phase/construct_influencer_json_data.py" />
       <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
@@ -245,12 +341,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/3.new_phase" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OLD_generate_paidpartnership_dataset.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/3.new_phase/generate_paidpartnership_dataset.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -305,11 +401,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.generate_paidpartnership_dataset" />
+        <item itemvalue="Python.construct_influencer_json_data" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.generate_paidpartnership_dataset (1)" />
         <item itemvalue="Python.generate_target_value" />
-        <item itemvalue="Python.construct_influencer_data" />
-        <item itemvalue="Python.generate_paidpartnership_dataset" />
       </list>
     </recent_temporary>
   </component>
@@ -361,17 +457,39 @@
       <workItem from="1583140913392" duration="2544000" />
       <workItem from="1583685281906" duration="552000" />
       <workItem from="1583787487126" duration="39000" />
+      <workItem from="1583872737238" duration="172000" />
+      <workItem from="1583872953307" duration="541000" />
+      <workItem from="1584021942542" duration="1705000" />
+      <workItem from="1584121574977" duration="5100000" />
+      <workItem from="1584300955965" duration="566000" />
+      <workItem from="1584542981795" duration="725000" />
+      <workItem from="1584787552777" duration="3555000" />
+      <workItem from="1585406240521" duration="4354000" />
+      <workItem from="1586022826346" duration="176000" />
+      <workItem from="1586035782606" duration="558000" />
+      <workItem from="1586109566437" duration="578000" />
+      <workItem from="1586167164815" duration="699000" />
+      <workItem from="1586274766294" duration="2481000" />
+      <workItem from="1586295815606" duration="1112000" />
+      <workItem from="1587154150365" duration="530000" />
+      <workItem from="1587313940604" duration="562000" />
+      <workItem from="1587411455624" duration="598000" />
+      <workItem from="1587802765810" duration="502000" />
+      <workItem from="1588364603738" duration="29000" />
+      <workItem from="1589652082196" duration="909000" />
+      <workItem from="1589712344079" duration="490000" />
+      <workItem from="1590350318058" duration="73000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121195000" />
+    <option name="totallyTimeSpent" value="147210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20340788" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25292864" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -401,82 +519,12 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/thesis_ai$test.coverage" NAME="test Coverage Results" MODIFIED="1582731080223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/thesis_ai$generate_target_value.coverage" NAME="generate_target_value Coverage Results" MODIFIED="1582560300758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/thesis_ai$generate_paidpartnership_dataset.coverage" NAME="generate_paidpartnership_dataset Coverage Results" MODIFIED="1582388319039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/thesis_ai$generate_paidpartnership_dataset.coverage" NAME="generate_paidpartnership_dataset Coverage Results" MODIFIED="1584205820530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.new_phase" />
     <SUITE FILE_PATH="coverage/thesis_ai$generate_paidpartnership_dataset__1_.coverage" NAME="generate_paidpartnership_dataset (1) Coverage Results" MODIFIED="1582727672775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/thesis_ai$construct_influencer_json_data.coverage" NAME="construct_influencer_json_data Coverage Results" MODIFIED="1584205484276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3.new_phase" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dataset/OLD_influencer-json/russwest44.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/OLD_influencer-json/ronaldinho.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="34" lean-forward="true" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/OLD_influencer-json/9gag.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/OLD_influencer-json/7_luhan_m.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/OLD_influencer-json/adidasoriginals.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/OLD_influencer-json/alexmorgan13.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/OLD_influencer-json/ritaora.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/OLD_influencer-json/elettramiuralamborghini.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="43" column="47" lean-forward="true" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/OLD_influencer-json/ross_lynch.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="68210" selection-start-column="68210" selection-end-column="68210" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/OLD_influencer-json/avengers.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/OLD_influencer-json/earthpix.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/OLD_influencer-json/sarwendah29.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/OLD_influencer-json/sarwendah29.json" />
     <entry file="file://$PROJECT_DIR$/constant.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -484,64 +532,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/OLD_images/cristiano7.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/OLD_images/cristiano8.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/OLD_images/cristiano9.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/OLD_images/cristiano6.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/OLD_influencer-json/cristiano.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/OLD_influencer-json/1demetozdemir.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="851">
-          <caret line="67" column="8" lean-forward="true" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/utilities.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/influencer_list.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="308">
-          <caret line="952" column="14" lean-forward="true" selection-start-line="952" selection-start-column="14" selection-end-line="952" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/OLD_images/cristiano1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/OLD_images/cristiano3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/OLD_images/cristiano4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/OLD_images/cristiano0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/OLD_images/cristiano2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/OLD_images/cristiano7.jpg" />
+    <entry file="file://$PROJECT_DIR$/dataset/OLD_images/cristiano8.jpg" />
+    <entry file="file://$PROJECT_DIR$/dataset/OLD_images/cristiano9.jpg" />
+    <entry file="file://$PROJECT_DIR$/dataset/OLD_images/cristiano6.jpg" />
+    <entry file="file://$PROJECT_DIR$/dataset/OLD_influencer-json/cristiano.json" />
+    <entry file="file://$PROJECT_DIR$/dataset/OLD_influencer-json/1demetozdemir.json" />
+    <entry file="file://$PROJECT_DIR$/common/utilities.py" />
+    <entry file="file://$PROJECT_DIR$/dataset/OLD_images/cristiano1.jpg" />
+    <entry file="file://$PROJECT_DIR$/dataset/OLD_images/cristiano3.jpg" />
+    <entry file="file://$PROJECT_DIR$/dataset/OLD_images/cristiano4.jpg" />
+    <entry file="file://$PROJECT_DIR$/dataset/OLD_images/cristiano0.jpg" />
+    <entry file="file://$PROJECT_DIR$/dataset/OLD_images/cristiano2.jpg" />
     <entry file="file://$PROJECT_DIR$/dataset/influencer-json-2020/kimkardashian.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -580,33 +582,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dataset/partnership.csv" />
-    <entry file="file://$PROJECT_DIR$/0.build_dataset/generate_influencer_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="603">
-          <caret line="47" column="26" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
-          <folding>
-            <element signature="e#18#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/influencer-json-2020/1demetozdemir.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="31" selection-start-column="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0.build_dataset/construct_influencer_json_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="36" column="51" lean-forward="true" selection-start-line="36" selection-start-column="51" selection-end-line="36" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dataset/influencer-test/cristiano1.json" />
     <entry file="file://$PROJECT_DIR$/dataset/influencer-test/cristiano0.json" />
     <entry file="file://$PROJECT_DIR$/dataset/influencer-json-2020/bambam1a.json">
@@ -631,10 +606,141 @@
     <entry file="file://$PROJECT_DIR$/dataset/images-2.0/viniciusjunior2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/0.build_dataset/test.py" />
+    <entry file="file://$PROJECT_DIR$/OLD_generate_paidpartnership_dataset.py" />
+    <entry file="file://$PROJECT_DIR$/1.pre_processing/NN.ipynb" />
+    <entry file="file://$PROJECT_DIR$/dataset-processed/test.csv" />
+    <entry file="file://$PROJECT_DIR$/dataset/influencer-json-2020/chaelincl.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-872">
+          <caret line="492" column="40" selection-start-line="492" selection-start-column="37" selection-end-line="492" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset-processed/pre-processed-02.csv" />
+    <entry file="file://$PROJECT_DIR$/dataset-processed/pre-processed-02-brand-paid.csv" />
+    <entry file="file://$PROJECT_DIR$/dataset-processed/pre-processed-01.csv" />
+    <entry file="file://$PROJECT_DIR$/1.pre_processing/01.pre-processing.ipynb" />
+    <entry file="file://$PROJECT_DIR$/3.new_phase/non_influencer_list copy.csv" />
+    <entry file="file://$PROJECT_DIR$/3.new_phase/common/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.new_phase/construct_influencer_json_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.new_phase/common/utilities.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.new_phase/dataset/non-influencer-json-2020/__fabrizioferrari.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="57" column="32" lean-forward="true" selection-start-line="57" selection-start-column="32" selection-end-line="57" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.new_phase/dataset/influencer_dataset.csv" />
+    <entry file="file://$PROJECT_DIR$/3.new_phase/dataset/non-influencer_dataset.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="74" lean-forward="true" selection-start-line="12" selection-start-column="74" selection-end-line="12" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.new_phase/generate_paidpartnership_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="58" column="52" selection-start-line="58" selection-start-column="52" selection-end-line="58" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3.new_phase/dataset/non_influencer_list.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0.build_dataset/common/utilities.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0.build_dataset/construct_influencer_json_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/influencer_list.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0.build_dataset/generate_paidpartnership_dataset.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="85" selection-end-column="84" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/influencer_dataset.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="123" selection-start-line="19" selection-start-column="123" selection-end-line="19" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/influencer-json-2020/1demetozdemir.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dataset/influencer-json-2020/cristiano.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="347" column="203" selection-start-line="347" selection-start-column="203" selection-end-line="347" selection-end-column="203" />
+        <state relative-caret-position="1440">
+          <caret line="342" column="52" selection-start-line="342" selection-start-column="42" selection-end-line="342" selection-end-column="52" />
           <folding>
             <element signature="n#!!block;n#viewer#0;n#!!block;n#config#0;n#!!top" />
             <element signature="e#2666#3068#0" />
@@ -654,78 +760,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0.build_dataset/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/0.build_dataset/generate_target_value.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
+        <state relative-caret-position="30">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#0#79#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OLD_generate_paidpartnership_dataset.py" />
-    <entry file="file://$PROJECT_DIR$/0.build_dataset/generate_paidpartnership_dataset.py">
+    <entry file="file://$PROJECT_DIR$/0.build_dataset/generate_influencer_list.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="146">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#18#47#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1.pre_processing/NN.ipynb" />
-    <entry file="file://$PROJECT_DIR$/dataset-processed/test.csv" />
-    <entry file="file://$PROJECT_DIR$/dataset/influencer-json-2020/chaelincl.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-872">
-          <caret line="492" column="40" selection-start-line="492" selection-start-column="37" selection-end-line="492" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset/influencer_dataset.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="218">
-          <caret line="10039" column="16" selection-start-line="10039" selection-start-column="16" selection-end-line="10039" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset-processed/pre-processed-02.csv" />
-    <entry file="file://$PROJECT_DIR$/dataset-processed/pre-processed-02-brand-paid.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="67" lean-forward="true" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset-processed/pre-processed-01.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
         </state>
       </provider>
     </entry>
