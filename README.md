@@ -1,6 +1,7 @@
 # Artificial intelligence thesis
 
 ### Abstract
+[How Can Non-Explicit Content on Social Media be Recognised Through Machine Learning](https://marcocaldera.com/portfolio/non-explicit-content-on-social-media-be-recognised-through-machine-learning-techniques/)
 
 ### Execution
 
